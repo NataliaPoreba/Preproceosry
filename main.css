@@ -1,5 +1,19 @@
+:root {
+    /*definicja zmiennej w czystym css */
+    --primary-color: darkgrey; 
+
+}
+
 body {
     height:100vh;
-    background-color: darkcyan;
+    /*background- color: darkcyan; */
+    background-color: var(--primary-color);
+}
 
+body: hover{
+    background-color: red;
+}
+
+p {
+    background-color: yellow;
 }
